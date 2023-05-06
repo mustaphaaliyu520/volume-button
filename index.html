@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>controls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <label for="rangeInput">
+            VOLUME
+        </label>
+        <output
+          id="amount"
+          name="amount"
+          for="rangeInput">-
+        </output>
+        <input 
+          type="range"
+          id="rangeInput"
+          name="rangeInput"
+          min="0"
+          max="100"
+          value="0"
+          oninput="amount.value=rangeInput.value + ' /100'"
+          />
+    </div>
+
+     <!-- <div class="wrapper">
+        <label for="rangeInput">
+            BASS
+        </label>
+        <output
+          id="amount"
+          name="amount"
+          for="rangeInput">0
+        </output>
+        <input 
+          type="range"
+          id="rangeInput"
+          name="rangeInput"
+          min="0"
+          max="100"
+          value="0"
+          oninput="amount.value=rangeInput.value + ' /100'"
+          />
+    </div>
+
+    <div class="wrapper">
+        <label for="rangeInput">
+            SFX
+        </label>
+        <output
+          id="amount"
+          name="amount"
+          for="rangeInput">0
+        </output>
+        <input 
+          type="range"
+          id="rangeInput"
+          name="rangeInput"
+          min="0"
+          max="100"
+          value="0"
+          oninput="amount.value=rangeInput.value + ' /100'"
+          />
+    </div>
+    <div class="wrapper">
+        <label for="rangeInput">
+            VOICE
+        </label>
+        <output
+          id="amount"
+          name="amount"
+          for="rangeInput">0
+        </output>
+        <input 
+          type="range"
+          id="rangeInput"
+          name="rangeInput"
+          min="0"
+          max="100"
+          value="0"
+          oninput="amount.value=rangeInput.value + ' /100'"
+          />
+    </div> -->
+</body>
+</html>
